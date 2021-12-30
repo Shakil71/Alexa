@@ -48,7 +48,7 @@ def run_alexa():
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif 'date' in command:
-        talk('Sorry vaiya, I am in another relation')
+        talk('Do not ask me ...i feel shay')
     else:
         talk('I did not get it but I am going to search it for you')
         pywhatkit.search(command)
